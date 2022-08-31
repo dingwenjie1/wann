@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>水果订单</title>
+	</head>
+	<body>
+		<form action="#" method="post">
+			<table frame="border" rules="all" border="1">
+				<caption>水果订货表单</caption>
+				<thead align="center">
+					<td>品种</td>
+					<td>价格</td>
+					<td>库存</td>
+					<td>操作</td>
+				</thead>
+				<tfoot align="center">
+					<td colspan="2"><input type="submit" name="m2" value="下单" />&nbsp;<input type="reset" name="" value="重置" /></td>
+					<td colspan="2">单号：<input type="number" name=""/></td>
+				</tfoot>
+				<tbody align="center">
+					<tr>
+						<td>西瓜</td>
+						<td>0.98</td>
+						<td>500</td>
+						<td><input type="radio" name="n1"/>预定<input type="radio" name="n1"/>购买<input type="number" name="n2" min="0" max="500"/>件</td>
+					</tr>
+					<tr>
+						<td>草莓</td>
+						<td>15.99</td>
+						<td>0</td>
+						<td><input type="radio" name="n2"/>预定<input type="radio" name="n2" disabled="disabled"/>购买<input type="number" name="n3" min="0" max="500"/>件</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</body>
+</html>
